@@ -10,3 +10,10 @@ This is a new organization that is very much a work in progress for adding metho
   - Finance.
 - Implement common solvers for differential games: IBR, viscostiy methods, level set methods, MPC, etc.
 - Create plugins to use other Julia libraries that can be applied to differential games: AlphaZero.jl, ReinforcementLearning.jl, InfiniteOpt.jl, iLQGames.jl, etc.
+
+Additionally, to aid in warm-starting differential game solvers, a motion planning package is also being developed that will include:
+
+- RRT,
+- RRT*, 
+- CHOMP, and
+- End-to-End Learning.
