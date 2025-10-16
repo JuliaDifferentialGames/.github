@@ -13,7 +13,7 @@ This is a new organization that is very much a work in progress for adding metho
 
 Additionally, to aid in warm-starting differential game solvers, a motion planning package is also being developed that will include:
 
-- RRT,
-- RRT*, 
+- Kinodynamic RRT*,
+- LQR Trees
 - CHOMP, and
 - End-to-End Learning.
