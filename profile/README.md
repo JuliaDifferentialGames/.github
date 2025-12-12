@@ -12,7 +12,7 @@ This organization is under active development, with several core packages alread
 
 > ⚠️ **Work in progress**
 >
-> These libraries are currently under active development and not all capabilites have been released.
+> These libraries are currently under active development and not all capabilites have been released yet, but will (hopefully) soon.
 
 
 
