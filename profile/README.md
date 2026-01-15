@@ -92,5 +92,3 @@ Packages within this organization are generally released under the **MIT License
 ## Project Status
 
 The ecosystem is **actively expanding**. APIs and interfaces may change as new solvers and workflows are integrated. For research or production use, we recommend pinning versions and tracking release notes.
-- a visual diagram of the ecosystem  
-- a project logo in SVG format  
