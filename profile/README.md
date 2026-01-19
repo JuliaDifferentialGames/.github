@@ -19,13 +19,11 @@ This organization is under active development, with several core packages alread
 ### DifferentialGames.jl
 **Core library for differential game modeling and solution methods.**
 
-Key capabilities:
-- Continuous and discrete-time differential games  
-- Zero-sum, general-sum, and cooperative formulations
-- Support for Multi-agent Reinforcement Learning (MARL) algorithms
-- Open-loop and feedback Nash equilibria  
+Key capabilities: 
+- Provides a wide taxonomy of differential game types
 - Customizable dynamics, costs, and constraints  
-- Interoperable with Julia’s scientific computing ecosystem  
+- Interoperable with Julia’s scientific computing ecosystem
+- Support for Multi-agent Reinforcement Learning (MARL) algorithms
 
 This package serves as the foundation for multi-agent optimal control and game-theoretic analysis in Julia.
 
