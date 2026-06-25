@@ -2,7 +2,7 @@
 
 **Open-source tools for Differential Games and Multi-Agent Control in Julia**
 
-The **JuliaDifferentialGames** organization builds a high-performance, research-grade ecosystem for modeling, solving, and learning **differential games** and **multi-agent dynamical systems**. Our libraries integrate modern numerical optimal control, dynamic programming, kinodynamic motion planning, and inverse problem methods to support advanced research and real-world applications.
+The JuliaDifferentialGames organization builds a high-performance, research-grade ecosystem for modeling, solving, and learning ifferential games and multi-agent control systems. Our libraries integrate modern numerical optimal control, dynamic programming, motion planning, and inverse problem methods to support advanced research and real-world applications.
 
 This organization is under active development, with several core packages already available and additional libraries in progress.
 
@@ -13,8 +13,6 @@ This organization is under active development, with several core packages alread
 > ⚠️ **Work in progress**
 >
 > These libraries are currently under active development and not all capabilites have been released yet, but will (hopefully) be soon.
-
-
 
 ### DifferentialGames.jl
 **Core library for differential game modeling and solution methods.**
@@ -28,30 +26,6 @@ Key capabilities:
 This package serves as the foundation for multi-agent optimal control and game-theoretic analysis in Julia.
 
 ---
-
-### DynamicPlanning.jl
-**Kinodynamic motion planning for warm-starting differential games.**
-
-Designed for dynamic and high-dimensional systems:
-- Kinodynamic planning (RRT, RRT*, variants)  
-- Planning-to-optimization workflows  
-- Warm-start generation for multi-agent game solvers  
-- Tools for global strategy initialization  
-
-Ideal for initializing complex trajectories before game-theoretic refinement.
-
----
-
-### IterativeRegularization.jl
-**Solvers for nonlinear inverse problems**
-
-Provides advanced iterative methods:
-- Landweber Method
-- Iteratively Regularized Gauss–Newton (IRGN)  
-- Nonlinear multigrid regularization  
-
-This package is a general package for numerical analysis of inverse problems.
-
 
 ## Mission and Scope
 
@@ -89,4 +63,4 @@ Packages within this organization are generally released under the **MIT License
 
 ## Project Status
 
-The ecosystem is **actively expanding**. APIs and interfaces may change as new solvers and workflows are integrated. For research or production use, we recommend pinning versions and tracking release notes.
+The ecosystem is actively expanding. APIs and interfaces may change as new solvers and workflows are integrated. For research or production use, we recommend pinning versions and tracking release notes.
